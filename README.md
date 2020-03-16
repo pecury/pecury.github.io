@@ -1,2 +1,2 @@
-# decury.github.io
-New site
+# Decury Promotional Website
+Repository of Decury's promotional website. Written in HTML, CSS and JS.

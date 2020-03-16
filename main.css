@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .container .content,
+  .container .img {
+    flex: 1 0 12em;
+    /* Change 12em to your breakpoint. */
+  }
