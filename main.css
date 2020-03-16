@@ -1,7 +1,6 @@
 body {
   margin: 0 !important;
   padding: 0 !important;
-  font-family: OpenSans;
 }
 
 html {
@@ -30,7 +29,7 @@ html {
   }
 
   .content {
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/bg.jpg) no-repeat center center fixed;
+    background: url(assets/bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -39,22 +38,23 @@ html {
 
   .centerlogo {
       width:100%;
-      margin-top:100px;
+      margin-top:300px;
   }
 
   .example_f {
     border-radius: 4px;
     background: #5845a4 !important;
     border: none;
-    color: #f5f5f5;
+    color: #FFFFFF;
     text-align: center;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 22px;
     padding: 20px;
     width: 200px;
     transition: all 0.4s;
     cursor: pointer;
     margin: 5px;
+    font-family: OpenSans;
   }
   .example_f span {
     cursor: pointer;
@@ -77,27 +77,6 @@ html {
   .example_f:hover span:after {
     opacity: 1;
     right: 0;
-  }
-
-  .link {
-    display: block;
-    position: absolute;
-    text-align: center;
-    bottom: 30px;
-    left: 20%;
-    right: 20%;
-    font-size: 15px;
-    color: #f5f5f5;
-    text-decoration: none;
-    padding-top: 10px;
-  }
-
-  .link:hover {
-    background-image: #f5f5f5;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 200px 5px;
-    color: #5845a4;
   }
 
   section {
@@ -143,5 +122,5 @@ html {
   }
 
   #button1, #button2 {
-    display: inline-block;
+    display:inline-block;
   }
