@@ -20,133 +20,139 @@ html {
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 
-  .container .content,
-  .container .img {
-    flex: 1 0 12em;
-  }
+.container .content,
+.container .img {
+  flex: 1 0 12em;
+}
 
-  .content {
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/bg.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+.content {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
-  .centerlogo {
-      width:100%;
-      margin-top:50px;
-  }
+.centerlogo {
+  width: 100%;
+  margin-top: 50px;
+}
 
-  .content {
-    font-size: 20px;
-    text-align: center;
-  }
-  .example_f {
-    border-radius: 4px;
-    background: #5845a4 !important;
-    border: none;
-    color: #f5f5f5;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 16px;
-    padding: 20px;
-    width: 200px;
-    transition: all 0.4s;
-    cursor: pointer;
-    margin: 5px;
-  }
-  .example_f span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.4s;
-    margin-top:50px;
-  }
-  .example_f span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  .example_f:hover span {
-    padding-right: 25px;
-  }
-  .example_f:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
+.content {
+  font-size: 20px;
+  text-align: center;
+}
 
-  .link {
-    display: block;
-    position: absolute;
-    text-align: center;
-    bottom: 30px;
-    left: 20%;
-    right: 20%;
-    font-size: 15px;
-    color: #f5f5f5;
-    text-decoration: none;
-    padding-top: 10px;
-  }
+.example_f {
+  border-radius: 4px;
+  background: #5845a4 !important;
+  border: none;
+  color: #f5f5f5;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin: 5px;
+}
 
-  .link:hover {
-    background-image: #f5f5f5;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 200px 5px;
-    color: #5845a4;
-  }
+.example_f span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+  margin-top: 50px;
+}
 
-  section {
-    height: 100vh;
-   }
+.example_f span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
 
-   .s1 {
-     max-width: 500px;
-     margin: auto;
-   }
+.example_f:hover span {
+  padding-right: 25px;
+}
+
+.example_f:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.link {
+  display: block;
+  position: absolute;
+  text-align: center;
+  bottom: 30px;
+  left: 20%;
+  right: 20%;
+  font-size: 15px;
+  color: #f5f5f5;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+.link:hover {
+  background-image: #f5f5f5;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 200px 5px;
+  color: #5845a4;
+}
+
+section {
+  height: 100vh;
+}
+
+.s1 {
+  max-width: 500px;
+  margin: auto;
+}
 
 
-  .s2 {
-    background-color: #5845a4;
-    width: 100%;
-  }
+.s2 {
+  background-color: #5845a4;
+  width: 100%;
+}
 
-  .s3 {
-    background-color: #624db8;
-    width: 100%;
-  }
+.s3 {
+  background-color: #624db8;
+  width: 100%;
+}
 
-  .s4 {
-    background-color: #6d56cc;
-    width: 100%;
-  }
+.s4 {
+  background-color: #6d56cc;
+  width: 100%;
+}
 
-  .s5 {
-    background-color: #785ee0;
-    width: 100%;
-  }
+.s5 {
+  background-color: #785ee0;
+  width: 100%;
+}
 
-  .s2landing {
-    width:50%;
-    position:absolute;
-    right:10px;
-    bottom: 10px;
-    top:1200px;
-  }
+.s2landing {
+  width: 50%;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  top: 1200px;
+}
 
-  .buttons {
-    text-align: center;
-  }
+.buttons {
+  text-align: center;
+}
 
-  #button1, #button2 {
-    display: inline-block;
-  }
+#button1,
+#button2 {
+  display: inline-block;
+}
